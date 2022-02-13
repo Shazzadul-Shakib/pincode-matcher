@@ -58,6 +58,7 @@ document.getElementById('submit').addEventListener('click', function () {
       document.getElementById('error').style.display = 'none';
       document.getElementById('pin-show').value = '';
       document.getElementById('pin-input').value = '';
+      document.getElementById('action-left').style.display = 'none';
     }
 
     // pin not matched here
