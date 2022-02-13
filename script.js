@@ -59,6 +59,7 @@ document.getElementById('submit').addEventListener('click', function () {
       document.getElementById('pin-show').value = '';
       document.getElementById('pin-input').value = '';
       document.getElementById('action-left').style.display = 'none';
+      count = 3;// again start from root :D
     }
 
     // pin not matched here
